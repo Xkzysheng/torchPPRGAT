@@ -1,3 +1,4 @@
+# 2-layer PPRGAT model for node classification
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
