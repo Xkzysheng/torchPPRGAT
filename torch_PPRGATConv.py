@@ -2,7 +2,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import scipy.sparse as sp
 
 
 def calc_ppr_topk_parallel_gpu(adj, alpha, epsilon, topk):
