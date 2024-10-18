@@ -2,7 +2,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from PPRGATConv import PersonalizedPageRankGraphAttentionLayer as PPRGATLayer
+from fast_PPRGATConv import PersonalizedPageRankGraphAttentionLayer as PPRGATLayer
+# from slow_PPRGATConv import PersonalizedPageRankGraphAttentionLayer as PPRGATLayer
+# from torch_PPRGATConv import PersonalizedPageRankGraphAttentionLayer as PPRGATLayer
+# from beta_PPRGATConv import PersonalizedPageRankGraphAttentionLayer as PPRGATLayer
 
 class PPRGAT(nn.Module):
     def __init__(self, nfeat, nhid, nclass, dropout, alpha, nheads, n_nodes):
