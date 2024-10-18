@@ -1,3 +1,4 @@
+# mainly calculate by numba on CPU, SLOW!
 import numba
 import torch
 import torch.nn as nn
