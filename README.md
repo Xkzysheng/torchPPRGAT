@@ -1,5 +1,5 @@
 # torchPPRGAT
-Personalized PageRank Graph Neural Network (PPRGAT): dense version with single attention head
+Personalized PageRank Graph Attention Network (PPRGAT): dense version with single attention head
 
 Adapted from the original implement for easier understanding (https://github.com/juliechoi12/pprgat/tree/main).
 
